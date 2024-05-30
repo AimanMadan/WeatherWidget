@@ -1,0 +1,19 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, #fff, #131313);
+}
+
+.weatherWidget-grid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+   
+}

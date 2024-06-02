@@ -4,7 +4,7 @@
 class WeatherWidgetCard {
     //initializes the widget with the API key and calls init()
     constructor() {
-        this.apiKey = 'get_your_API_key'; // Replace 'YOUR_API_KEY' with your API key
+        this.apiKey = 'get_your_API_ke'; // Replace 'YOUR_API_KEY' with your API key
         this.init();
     }
 
@@ -40,7 +40,7 @@ class WeatherWidgetCard {
 
 
         document.querySelector('.weather img').src = this.getWeatherImage(data.weather[0].main);
-        document.querySelector('.temp').textContent = `${data.main.temp} °F`;
+        document.querySelector('.temp').textContent = `${Math.round(data.main.temp)} °F`;
         document.querySelector('.City').textContent = data.name;
         document.querySelector('.humidity').textContent = `${data.main.humidity}%`;
         document.querySelector('.wind').textContent = `${data.wind.speed} mph`;

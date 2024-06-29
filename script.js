@@ -1,7 +1,7 @@
 class WeatherWidgetCard {
     // Initializes the widget with the API key and calls init()
     constructor() {
-        this.apiKey = 'apikey'; // Replace 'YOUR_API_KEY' with your API key
+        this.apiKey = '3777fc9d76a341e33c1aab7a324b9cda'; // Replace 'YOUR_API_KEY' with your API key
         this.units = 'imperial';
         this.currentCity = '';
         this.init();
